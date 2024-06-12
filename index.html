@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rectangle_top">
+        <img src="imagens/fortes_logo.png" alt="">
+        <a href="#login" id="login">Login</a>
+    </div>
+    <div id="rectangle_nav">
+        <header>
+            <nav class="navegacao">
+                <a href="#fortes" class="ativo">A fortes</a>
+                <a href="#setores">Setores de atuação</a>
+                <a href="#solucoes">Soluções fortes</a>
+                <a href="#integridade">Intergridade</a>
+                <a href="#inovafortes">InovaFortes</a>
+                <a href="#noticias">Notícias</a>
+                <a href="#contato">Contato</a>
+                <a href="#acoes" onclick="redirecionarSobre()">Ações Sociais</a>
+            </nav>
+        </header>
+    </div>
+
+
+    <div id="rectangle1"></div>
+    <div id="rectangle2"></div>
+
+    <script>
+        function redirecionarSobre() {
+            window.location.href = "sobre.html"
+        }
+    </script>
+</body>
+</html>
