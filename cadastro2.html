@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rectangle_nav2">
+        <header>
+            <nav class="navegacao">
+                <a href="#fortes" class="ativo">A fortes</a>
+                <a href="#setores">Setores de atuação</a>
+                <a href="#solucoes">Soluções fortes</a>
+                <a href="#integridade">Intergridade</a>
+                <a href="#inovafortes">InovaFortes</a>
+                <a href="#noticias">Notícias</a>
+                <a href="#contato">Contato</a>
+                <a href="#acoes" onclick="redirecionarSobre()">Ações Sociais</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="rectangle3">
+        <h1 class="titulo">Cadastro</h1>
+
+        <div id="rectangle4">
+            <h3 class="registration_info">2. Identificação do Responsável</h3>
+
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="CPF"><br>
+            <input type="text" placeholder="RG">
+            <input type="text" placeholder="Órgão Expedidor">
+            <input type="text" placeholder="Cargo na OSC">
+            <input type="text" placeholder="Mandato Vigente Até"><br>
+            <input type="text" placeholder="Endereço"><br>
+            <input type="text" placeholder="Telefone 1">
+            <input type="text" placeholder="Telefone 2">
+            <input type="text" placeholder="Telefone 3">
+
+
+        </div>
+
+
+        <div class="center">
+            <button class="button" onclick="redirecionarCadastro3()">Próximo</button>
+        </div>
+    </div>
+
+    <script>
+        function redirecionarCadastro3() {
+            window.location.href = "cadastro3.html"
+        }
+    </script>
+</body>
+</html>

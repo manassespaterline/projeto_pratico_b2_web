@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rectangle_nav2">
+        <header>
+            <nav class="navegacao">
+                <a href="#fortes" class="ativo">A fortes</a>
+                <a href="#setores">Setores de atuação</a>
+                <a href="#solucoes">Soluções fortes</a>
+                <a href="#integridade">Intergridade</a>
+                <a href="#inovafortes">InovaFortes</a>
+                <a href="#noticias">Notícias</a>
+                <a href="#contato">Contato</a>
+                <a href="#acoes" onclick="redirecionarSobre()">Ações Sociais</a>
+            </nav>
+        </header>
+    </div>
+
+    <div id="rectangle3">
+        <h1 class="titulo">Cadastro</h1>
+
+        <div id="rectangle4">
+            <h3 class="registration_info">4. Conhecendo o Proponente</h3>
+
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="CPF"><br>
+            <input type="text" placeholder="RG">
+            <input type="text" placeholder="Órgão Expedidor">
+            <input type="text" placeholder="Cargo na OSC">
+            <input type="text" placeholder="Mandato Vigente Até"><br>
+            <input type="text" placeholder="Endereço"><br>
+            <input type="text" placeholder="Telefone 1">
+            <input type="text" placeholder="Telefone 2">
+            <input type="text" placeholder="Telefone 3">
+        </div>
+
+        <div id="rectangle5">
+            <h3 class="registration_info"> 5. Principais Ações Desenvolvidas pela Proponente</h3>
+
+            <textarea name="description" id="description1" rows="20"></textarea>
+        </div>
+
+        <div id="rectangle6">
+            <h3 class="registration_info"> 6. Público Alvo de Atendimento</h3>
+
+            <textarea name="description" id="description1" rows="20"></textarea>
+        </div>
+
+        <div id="rectangle7">
+            <h3 class="registration_info"> 7. Regiões de Alcance das Ações</h3>
+
+            <textarea name="description" id="description1" rows="20"></textarea>
+        </div>
+
+        <div id="rectangle8">
+            <h3 class="registration_info"> 8. Infraestrutura da Proponente</h3>
+
+            <textarea name="description" id="description1" rows="20"></textarea>
+        </div>
+
+        <div id="rectangle9">
+            <h3 class="registration_info"> 9. Equipe Muldisciplinar do Proponente</h3>
+
+            <textarea name="description" id="description1" rows="20"></textarea>
+        </div>
+
+
+        <div class="center">
+            <button class="button" onclick="redirecionarCadastro4()">Próximo</button>
+        </div>
+    </div>
+
+    <script>
+        function redirecionarCadastro4() {
+            window.location.href = "cadastro4.html"
+        }
+    </script>
+</body>
+</html>
