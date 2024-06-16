@@ -198,3 +198,74 @@ input:focus {
     width: 80%;
     resize: none;
 }
+
+
+
+
+#rectangle_registration_completed {
+    background-color: white;
+}
+
+#img_registration_completed {
+    margin-top: 8%;
+    margin-left: 15%;
+    
+}
+
+#txt_registration_completed {
+    text-align: right;
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login */
+
+#rectangle10 {
+    margin-left: 35%;
+    margin-top: 3%;
+    width: 30%;
+    height: 800px;
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+#login_title {
+    margin-left: 42%;
+}
+
+.login_button {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 2%;
+    background-color: rgb(100, 98, 98);
+    color: white;
+}
+
+.login_button:hover {
+    background-color: rgb(53, 82, 163);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#login_button {
+    margin-left: 15%;
+    margin-top: 40%;
+}
