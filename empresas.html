@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="rectangle_nave">
+        <header>
+            <nav class="navegacao">
+                <a href="#home">Home</a>
+                <a href="#notificacoes">Notificações</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="containera">
+        <!-- Quadrado com informações do projeto -->
+        <div class="projeto-info">
+                <img src="imagens/gray-user-profile-icon-png-fP8Q1P.png" alt="Ícone do Usuário" width="100px">
+            <h3>Nome do Projeto <br> Empresa Responsável</h3>
+            <div id="descricao">
+                <p>Uma breve descrição do projeto.</p>
+            </div>
+            <button onclick="editarInformacoes()">Editar Informações</button>
+        </div>
+
+    <div id="rectangl3">
+        <h111 class="publicacoes">Publicações</h111>
+
+
+        <div id="rectangl5">
+            <h90 class="att"> Atualização do projeto 1</h90>
+            <p>Pequeno resumo sobre o ultimo relatório.</p>
+        </div>
+
+        <div id="rectangl5">
+            <h90 class="att"> Atualização do projeto 2</h90>
+            <p>Pequeno resumo sobre este relatório.</p>
+        </div>
+
+        <div id="rectangl5">
+            <h90 class="att"> Atualização do projeto 3</h90>
+            <p>Pequeno resumo sobre este relatório.</p>
+        </div>
+
+        <div id="rectangl5">
+            <h90 class="att"> Atualização do projeto 4</h90>
+            <p>Pequeno resumo sobre este relatório.</p>
+        </div>
+    </div>
+
+        <div class="direitaaa">
+            <div class="barrapesquisa">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+            <div id="publicacao">
+                <button onclick="redirecionarpublicacao()">Nova Publicação</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function redirecionarpublicacao() {
+            window.location.href = "nova_publicacao.html"
+        }
+    </script>
+</body>
+</html>

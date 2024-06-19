@@ -269,3 +269,147 @@ input:focus {
     margin-left: 15%;
     margin-top: 40%;
 }
+
+/* parte das empresas*/
+#rectangle10 input{
+    background-color:rgb(100, 98, 98) ;
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+
+#fundo_emailsenha {
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    display: block;
+    margin-left: 13%;
+    margin-top: 50%;
+}
+
+#fundo_emailsenha p{
+    text-align: right;
+    margin-right: 85px;
+    text-decoration: underline;
+}
+
+/*tela inicial das empresas */
+#rectangle_nave .navegacao{
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 60px;
+    height: 40px;
+    background-color: rgba(33, 191, 133, 1);
+}
+
+.containera {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* parte do perfil da empresa */
+.projeto-info {
+    flex:none;
+    height: 430px;
+    width: 300px;
+    padding: 20px;
+    background-color: #090c38;
+    text-align: center;
+    margin-right: 0px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.projeto-info img{
+    background-color: gray;
+    border-radius: 50%;
+}
+.projeto-info p {
+    background-color: grey;
+    border-radius: 30px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.projeto-info h3 {
+    margin-bottom: 10px;
+    font-size:larger;
+}
+
+.projeto-info p {
+    text-align: left;
+}
+
+.projeto-info button {
+    margin-top: 10px;
+}
+/* parte do meio / feed */
+#rectangl3 {
+    margin-left: 2%;
+    margin-top: 0px;
+    width: 91%;
+    height: 90%;
+    border-radius: 30px;
+    background-color:gray;
+}
+
+#rectangl3 #rectangl5{
+    margin-bottom: 30px;
+
+}
+
+#rectangl5 {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 80%;
+    height: 230px;
+    border-radius: 30px;
+    background-color: rgb(219, 219, 219);
+    padding: 10px;
+}
+
+h90 {
+    margin-top: 3%;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 2%;
+}
+
+h111 {
+    margin-left: 60px;
+    display: block;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.att {
+    font-size: 25px;
+    color: black;
+    width: 30px;
+}
+
+/* parte da direita de pesquisa e nova publicacao */
+
+.direitaaa {
+    margin-top: 30px;
+}
+
+.barrapesquisa{
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#publicacao {
+    justify-content: center;
+    display: flex;
+    height: 50px;
+}
+#publicacao button {
+    width:80%;
+}
