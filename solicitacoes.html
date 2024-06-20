@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Monitoramento</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-color: rgba(20, 72, 140, 1);
+        }
+    </style>
+
+</head>
+<body>
+    <div id="rectangle_nav">
+        <header>
+            <nav class="navegacao">
+                <a href="#home">Home</a>
+                <a href="#notificacoes">Notificações</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="projeto-info">
+            <img src="imagens/gray-user-profile-icon-png-fP8Q1P.jpeg" alt="Ícone do Usuário" width="100px">
+        <h3>Nome Completo <br> Cargo: Administrador</h3>
+        <div id="descricao">
+            <p>Uma breve descrição do projeto.</p>
+        </div>
+        <button onclick="editarInformacoes()" class="btn_inicio" style="width: 200px; height: 40px;">Editar Informações</button>
+        </div>
+
+        <div id="inicio_adm">
+            <h4 id="pg_inicial">Projetos a serem aprovados</h4>
+
+            <div id="scroll_projetos">
+                <div id="projeto_pendente1">
+                    <h3>Empresa 1 - Título da ação</h3>
+                    <h5>Explicação da ação a ser aceita. . .</h5>
+                </div>
+
+                <div id="projeto_pendente2">
+                    <h3>Empresa 2 - Título da ação</h3>
+                    <h5>Explicação da ação a ser aceita. . .</h5>
+                </div>
+
+                <div id="projeto_pendente3">
+                    <h3>Empresa 3 - Título da ação</h3>
+                    <h5>Explicação da ação a ser aceita. . .</h5>
+                </div>
+
+                <div id="projeto_pendente4">
+                    <h3>Empresa 4 - Título da ação</h3>
+                    <h5>Explicação da ação a ser aceita. . .</h5>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

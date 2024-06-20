@@ -413,3 +413,101 @@ h111 {
 #publicacao button {
     width:80%;
 }
+
+
+
+
+
+/* Parte dos administradores */
+
+#perfil_adm {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 20%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgba(28, 32, 71, 1);
+}
+
+#inicio_adm {
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 40%;
+    height: 900px;
+    border-radius: 10px;
+    background-color: rgb(47, 57, 70);
+}
+
+.container {
+    display: flex;
+}
+
+
+#pg_inicial {
+    color: white;
+    margin-left: 20px;
+}
+
+#ola_adm {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+
+#inicio_adm h3 {
+    margin-left: 20px;
+}
+
+.btn_inicio {
+    margin-left: 18%;
+    margin-top: 15%;
+    width: 180px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(33, 191, 133, 1);
+}
+
+#projeto_pendente1 {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+#projeto_pendente2 {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+#projeto_pendente3 {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+#projeto_pendente4 {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+
+h5 {
+    margin-left: 20px;
+}
+
+#scroll_projetos {
+    height: 800px;
+    overflow-y: auto;
+}

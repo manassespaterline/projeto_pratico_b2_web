@@ -10,20 +10,18 @@
     <div id="rectangle10">
         <h1 id="login_title">Login</h1>
 
-        <div id="login_button">
-            <button class="login_button" onclick="redirecionarAdm()" Fortes</button>Administrador Fortes<br>
-            <button class="login_button" onclick="redirecionarInst()">Instituição</button>
+        <div id="fundo_emailsenha">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Senha">
+            <p>Esqueci minha senha</p>
+            <button class="login_button" onclick="redirecionarAdm()">Entrar</button>
         </div>
         
 
     </div>
     <script>
-        function redirecionarInst() {
-            window.location.href = "login_inst.html"
-        }
-
         function redirecionarAdm() {
-            window.location.href = "login_adm.html"
+            window.location.href = "administrador.html"
         }
     </script>
 </body>
