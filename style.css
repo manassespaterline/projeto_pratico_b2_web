@@ -393,7 +393,7 @@ h111 {
 /* parte da direita de pesquisa e nova publicacao */
 
 .direitaaa {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .barrapesquisa{
@@ -414,8 +414,110 @@ h111 {
     width:80%;
 }
 
+/*nova publicacao */
+#nova_pub {
+    display: block;
+    width: 50%;
+    height: 800px;
+    border-radius: 10px;
+    background-color: rgb(47, 57, 70);
+    margin-left: 60px;
+    
+}
 
+#pag_inicial {
+    color: white;
+    margin-left: 20px;
+    display: flex;
+}
 
+#mensage {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(197, 201, 207);
+}
+
+#scroll_publ {
+    height: 715px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    margin: 30px;
+}
+/*botoes*/
+#Tituloo {
+    text-align: center;
+    width: 700px;
+    margin-left: 5%;
+}
+
+#Mensage{
+    height: 400px;
+    width: 97%;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+
+#Imagens {
+    text-align: center;
+}
+
+#Imagens button {
+    height: 200px;
+    width: 400px;
+    margin-right: 5px;
+    margin-left: 7px;
+    border-radius: 10px;
+}
+
+#publicar {
+    text-align: center;
+}
+#publicar button {
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/*editando informacoes*/
+
+#configs {
+    text-align: left;
+    width: 700px;
+    margin-left: 2%;
+}
+
+#configs a {
+    color: white;
+    font-size: larger;
+    line-height: 2;
+}
+
+#Imagensss {
+    text-align: center;
+}
+
+#Imagensss button {
+    height: 200px;
+    width: 400px;
+    margin-right: 5px;
+    margin-left: 7px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#publicarr {
+    text-align: center;
+}
+#publicarr button {
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 130px;
+}
 
 
 /* Parte dos administradores */

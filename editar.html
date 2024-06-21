@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresas</title>
+    <title>Configurações</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,44 +27,39 @@
             <button onclick="editarInformacoes()" class="btn_inicio" style="width: 200px; height: 40px;">Editar Informações</button>
         </div>
 
-    <div id="rectangl3">
-        <h111 class="publicacoes">Publicações</h111>
+        <div id="nova_pub">
+            <h4 id="pag_inicial">editar Informações</h4>
 
+            <div id="scroll_publ">
+                <div id="configs">                  
+                    <a href="#Nome">Mudar nome do projeto</a><br>
+                    <a href="#empresa">Mudar nome da empresa responsável</a><br>
+                    <a href="#descricao">Mudar descrição do projeto</a><br>
+                    <a href="#telefone">Mudar telefone</a><br>
+                    <a href="#email">Mudar endereço de Email</a><br>
+                    <a href="#site">Mudar site</a>     <br>
+                </div>
 
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 1</h90>
-            <p>Pequeno resumo sobre o ultimo relatório.</p>
+                <div id="Imagensss">
+                    <button class="botoes">Adicionar Imagem</button>
+                </div>
+                <div id="publicarr">
+                    <button class="publicarr">Salvar mudanças</button>
+                </div>
+            </div>
+            
+
         </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 2</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 3</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 4</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-    </div>
+    
 
         <div class="direitaaa">
             <div class="barrapesquisa">
                 <input type="text" placeholder="Pesquisar">
             </div>
-            <div id="publicacao">
-                <button onclick="redirecionarpublicacao()">Nova Publicação</button>
-            </div>
+
         </div>
-    </div>
+    </div>     
     <script>
-        function redirecionarpublicacao() {
-            window.location.href = "nova_publicacao.html"
-        }
         function editarInformacoes() {
             window.location.href = "editar.html"
         }

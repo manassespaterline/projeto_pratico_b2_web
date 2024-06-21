@@ -27,44 +27,39 @@
             <button onclick="editarInformacoes()" class="btn_inicio" style="width: 200px; height: 40px;">Editar Informações</button>
         </div>
 
-    <div id="rectangl3">
-        <h111 class="publicacoes">Publicações</h111>
+        <div id="nova_pub">
+            <h4 id="pag_inicial">Nova Publicação</h4>
 
+            <div id="scroll_publ">
+                <div id="Tituloo">                  
+                    <input type="text" id="Tituloo" placeholder="Digite seu titulo...">                    
+                </div>
 
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 1</h90>
-            <p>Pequeno resumo sobre o ultimo relatório.</p>
+                <div id="Mensage">
+                    <textarea name="Mensage" placeholder="Digite aqui..." id="" cols="112" rows="25"></textarea><br>
+                </div>
+
+                <div id="Imagens">
+                    <button class="botoes">Adicionar Imagem</button>
+                    <button class="botoes">Adicionar Imagem</button>
+                </div>
+                <div id="publicar">
+                    <button class="publicar">Publicar</button>
+                </div>
+            </div>
+            
+
         </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 2</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 3</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-
-        <div id="rectangl5">
-            <h90 class="att"> Atualização do projeto 4</h90>
-            <p>Pequeno resumo sobre este relatório.</p>
-        </div>
-    </div>
+    
 
         <div class="direitaaa">
             <div class="barrapesquisa">
                 <input type="text" placeholder="Pesquisar">
             </div>
-            <div id="publicacao">
-                <button onclick="redirecionarpublicacao()">Nova Publicação</button>
-            </div>
+
         </div>
-    </div>
+    </div>     
     <script>
-        function redirecionarpublicacao() {
-            window.location.href = "nova_publicacao.html"
-        }
         function editarInformacoes() {
             window.location.href = "editar.html"
         }
