@@ -4,7 +4,7 @@ Link para o Github Pages: https://manassespaterline.github.io/projeto_pratico_b2
 
 Grupo:
 Manassés Feliciano Paterline \
-Guilherme Plotheger
-Guilherme Montinho Langa
-Daniel Murad de Alcantara
+Guilherme Plotheger \
+Guilherme Montinho Langa \
+Daniel Murad de Alcantara \
 Davi Corradi Alves Guedes
